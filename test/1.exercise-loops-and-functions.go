@@ -26,7 +26,6 @@ func Sqrt(x float64) float64 {
 	for {
 		old := z
 		z = z - (z*z-x)/(2*z)
-		fmt.Printf("old:%v z:%v\n", old, z)
 		if uint(z*precision) == uint(old*precision) {
 			return z
 		}
