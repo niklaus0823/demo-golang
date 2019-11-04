@@ -15,6 +15,7 @@ import (
 )
 
 func main() {
+	// Nextafter 根据x和y的值，返回某一方向最接近x的值
 	fmt.Printf("Now you have %g problems.", math.Nextafter(2, 3))
 }
 
